@@ -38,6 +38,9 @@ class SportsPress_Basketball {
 
 		add_filter( 'gettext', array( $this, 'gettext' ), 20, 3 );
 
+		// Define default sport
+		add_filter( 'sportspress_default_sport', array( $this, 'default_sport' ) );
+
 		// Include required files
 		$this->includes();
 	}
@@ -97,6 +100,7 @@ class SportsPress_Basketball {
 				'name'        => 'SportsPress',
 				'slug'        => 'sportspress',
 				'required'    => true,
+				'version'     => '2.3',
 				'is_callable' => array( 'SportsPress', 'instance' ),
 			),
 		);
@@ -157,6 +161,13 @@ class SportsPress_Basketball {
 		}
 		
 		return $translated_text;
+	}
+
+	/**
+	 * Define default sport.
+	*/
+	public function default_sport() {
+		return 'basketball';
 	}
 }
 
