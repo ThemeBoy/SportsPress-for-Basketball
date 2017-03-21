@@ -21,13 +21,14 @@ SportsPress for Basketball is currently in Beta. Please feel free to share your 
 * Basketball Admin Branding to replace the [SportsPress](https://wordpress.org/plugins/sportspress/) icon with a basketball
 * Schedule Games (Fixtures & Results)
 * Basketball Court Information & Maps
+* Starting lineup and bench.
 
 = SportsPress Pro =
 
 Looking for more advanced basketball functionality? Upgrade to [SportsPress Pro](http://tboy.co/pro) to get access to more advanced features for your basketball team website.
 
 = SportsPress Themes for Teams =
-* [Overtime](http://tboy.co/overtime)
+* [Courtside](http://tboy.co/courtside)
 * [Football Club](http://tboy.co/fc)
 * [Premier](http://tboy.co/premier)
 * [Emblem](http://tboy.co/emblem)
@@ -87,3 +88,5 @@ Yes, CSV importers are included with the core SportsPress plugin. Go to Tools > 
 * Tweak - Display basketball icon in place of SportsPress logo.
 * Tweak - Display events as games.
 * Tweak - Display venues as courts.
+* Tweak - Display substitutes as bench.
+* Tweak - Remove substitute dropdown.
