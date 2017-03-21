@@ -72,6 +72,12 @@ class SportsPress_Basketball {
 	 * Enqueue styles.
 	 */
 	public static function admin_enqueue_scripts() {
+		$screen = get_current_screen();
+
+		if ( in_array( $screen->id, array( 'sp_event', 'edit-sp_event' ) ) ) {
+			wp_enqueue_script( 'sportspress-basketball-admin', SP_BASKETBALL_URL . 'js/admin.js', array( 'jquery' ), SP_BASKETBALL_VERSION, true );
+		}
+
 		wp_enqueue_style( 'sportspress-basketball-admin', SP_BASKETBALL_URL . 'css/admin.css', array( 'sportspress-admin-menu-styles' ), '0.9' );
 	}
 
@@ -142,6 +148,10 @@ class SportsPress_Basketball {
 					break;
 				case 'Edit Venue':
 					$translated_text = __( 'Edit Court', 'sportspress-for-basketball' );
+					break;
+				case 'Substitute':
+				case 'Substituted':
+					$translated_text = __( 'Bench', 'sportspress-for-basketball' );
 					break;
 			}
 		}
