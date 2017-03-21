@@ -5,7 +5,7 @@
  * Description: A suite of basketball features for SportsPress.
  * Author: ThemeBoy
  * Author URI: http://themeboy.com/
- * Version: 0.9
+ * Version: 0.9.1
  *
  * Text Domain: sportspress-for-basketball
 */
@@ -19,7 +19,7 @@ if ( ! class_exists( 'SportsPress_Basketball' ) ) :
  * Main SportsPress Basketball Class
  *
  * @class SportsPress_Basketball
- * @version	0.9
+ * @version	0.9.1
  */
 class SportsPress_Basketball {
 
@@ -47,7 +47,7 @@ class SportsPress_Basketball {
 	*/
 	private function define_constants() {
 		if ( !defined( 'SP_BASKETBALL_VERSION' ) )
-			define( 'SP_BASKETBALL_VERSION', '0.9' );
+			define( 'SP_BASKETBALL_VERSION', '0.9.1' );
 
 		if ( !defined( 'SP_BASKETBALL_URL' ) )
 			define( 'SP_BASKETBALL_URL', plugin_dir_url( __FILE__ ) );
