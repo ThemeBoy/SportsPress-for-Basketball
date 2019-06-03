@@ -3,7 +3,7 @@ Contributors: ThemeBoy, brianmiyaji, aylaview
 Tags: basketball, basketball team, sport, sports, players, statistics, stats, data, standings
 Donate link: http://tboy.co/donate
 Requires at least: 3.8
-Tested up to: 4.7
+Tested up to: 5.2
 Stable tag: 0.9.1
 License: GPLv3
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
